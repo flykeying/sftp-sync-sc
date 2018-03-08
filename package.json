@@ -1,0 +1,21 @@
+{
+  "name": "sftp-sync-sc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sync",
+    "server",
+    "clent",
+    "sftp"
+  ],
+  "author": "WOS",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^2.0.2",
+    "ssh2-sftp-client": "^2.0.1"
+  }
+}
