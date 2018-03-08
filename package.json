@@ -1,10 +1,10 @@
 {
   "name": "sftp-sync-sc",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm install"
   },
   "keywords": [
     "sync",
@@ -12,7 +12,17 @@
     "clent",
     "sftp"
   ],
-  "author": "WOS",
+  "author": {
+    "name": "Wos",
+    "url": "http://wosclass.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flykeying/sftp-sync-sc"
+  },
+  "bugs": {
+    "url": "https://github.com/flykeying/sftp-sync-sc/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "chokidar": "^2.0.2",
