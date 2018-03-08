@@ -1,6 +1,6 @@
 {
   "name": "sftp-sync-sc",
-  "version": "1.0.3",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/flykeying/sftp-sync-sc/issues"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "chokidar": "^2.0.2",
     "ssh2-sftp-client": "^2.0.1"
   }

@@ -3,7 +3,7 @@
 模块提供基于node，利用sftp模式，同步服务端与客户端的文件夹。
 
 ```javascript
-const sync = require("./modules/dev.js")
+const sync = require("sftp-sync-sc")
 
 sync({
 		host:'ip地址',
@@ -16,3 +16,6 @@ sync({
 })
 ```
 
+## 注意
+
+创建文件并不触发上传，只有保存后才进行上传
