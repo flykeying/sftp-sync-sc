@@ -19,7 +19,7 @@ module.exports = (cf) =>{
 			.on('ready', () => {
 		  		ready = true
 		  		console.clear()
-		  		console.log("\033[44;37m [start] \033[0m monitoring directorie ：" + __dirname )
+		  		console.log("\033[44;37m [start] \033[0m monitoring directorie ：" + config.localFilePath )
 			})
 			// .on('all',(event, path) => {
 			//   console.log(event, path);
